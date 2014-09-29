@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/icons" lang="french">
+        <file>img/ok.png</file>
+        <file>img/ko.png</file>
+        <file>img/appicon.ico</file>
+        <file>img/appicon.png</file>
+    </qresource>
+</RCC>

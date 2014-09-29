@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Matrix</class>
+ <widget class="QWidget" name="Matrix">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>274</width>
+    <height>352</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QGroupBox" name="dxp_in">
+   <property name="geometry">
+    <rect>
+     <x>13</x>
+     <y>25</y>
+     <width>250</width>
+     <height>120</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>INPUTS</string>
+   </property>
+   <widget class="QPushButton" name="dxp_in_3">
+    <property name="geometry">
+     <rect>
+      <x>121</x>
+      <y>20</y>
+      <width>70</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>DVD
+PANA</string>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="autoExclusive">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="dxp_in_1">
+    <property name="geometry">
+     <rect>
+      <x>1</x>
+      <y>20</y>
+      <width>70</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PLS
+PGM</string>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="autoExclusive">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="dxp_in_4">
+    <property name="geometry">
+     <rect>
+      <x>181</x>
+      <y>20</y>
+      <width>70</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>DVD
+PHIL</string>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="autoExclusive">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="dxp_in_2">
+    <property name="geometry">
+     <rect>
+      <x>61</x>
+      <y>20</y>
+      <width>70</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>DVI
+TRAD</string>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="autoExclusive">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>16</x>
+      <y>85</y>
+      <width>44</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string> HDCP</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="dxp_hdcp2">
+    <property name="geometry">
+     <rect>
+      <x>89</x>
+      <y>97</y>
+      <width>19</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="dxp_hdcp1">
+    <property name="geometry">
+     <rect>
+      <x>29</x>
+      <y>97</y>
+      <width>19</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="tristate">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="dxp_hdcp4">
+    <property name="geometry">
+     <rect>
+      <x>209</x>
+      <y>97</y>
+      <width>19</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="dxp_hdcp3">
+    <property name="geometry">
+     <rect>
+      <x>149</x>
+      <y>97</y>
+      <width>19</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>76</x>
+      <y>85</y>
+      <width>44</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string> HDCP</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>136</x>
+      <y>85</y>
+      <width>44</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string> HDCP</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>196</x>
+      <y>85</y>
+      <width>44</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string> HDCP</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>13</x>
+     <y>4</y>
+     <width>200</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <widget class="QLabel" name="dxp_status_icon">
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="ressources.qrc">:/icons/img/ko.png</pixmap>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="lblDxp">
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string>EXTRON DXP44-DVI MATRIX</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QGroupBox" name="dxp_out">
+   <property name="geometry">
+    <rect>
+     <x>13</x>
+     <y>143</y>
+     <width>250</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>OUTPUTS</string>
+   </property>
+   <widget class="QPushButton" name="dxp_out_1">
+    <property name="geometry">
+     <rect>
+      <x>1</x>
+      <y>20</y>
+      <width>70</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="text">
+     <string>VP
+DVI</string>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+    <property name="autoRepeat">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="dxp_out_2">
+    <property name="geometry">
+     <rect>
+      <x>61</x>
+      <y>20</y>
+      <width>70</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PLS
+DVI1</string>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="dxp_out_3">
+    <property name="geometry">
+     <rect>
+      <x>121</x>
+      <y>20</y>
+      <width>70</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>DVI
+TRAD</string>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="dxp_out_4">
+    <property name="geometry">
+     <rect>
+      <x>181</x>
+      <y>20</y>
+      <width>70</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>4</string>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>139</x>
+      <y>85</y>
+      <width>34</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>MUTE</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>199</x>
+      <y>85</y>
+      <width>34</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>MUTE</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="dxp_mute4">
+    <property name="geometry">
+     <rect>
+      <x>206</x>
+      <y>97</y>
+      <width>19</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="dxp_mute2">
+    <property name="geometry">
+     <rect>
+      <x>86</x>
+      <y>97</y>
+      <width>19</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="dxp_mute1">
+    <property name="geometry">
+     <rect>
+      <x>26</x>
+      <y>97</y>
+      <width>19</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="tristate">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="dxp_mute3">
+    <property name="geometry">
+     <rect>
+      <x>146</x>
+      <y>97</y>
+      <width>19</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>19</x>
+      <y>85</y>
+      <width>34</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>MUTE</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>79</x>
+      <y>85</y>
+      <width>34</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>MUTE</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="dxp_enter">
+   <property name="geometry">
+    <rect>
+     <x>8</x>
+     <y>265</y>
+     <width>260</width>
+     <height>56</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ENTER</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="dxp_clear">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>314</y>
+     <width>259</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>CLEAR</string>
+   </property>
+  </widget>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>-1</y>
+     <width>274</width>
+     <height>352</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 223, 223);</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+  </widget>
+  <zorder>frame</zorder>
+  <zorder>dxp_in</zorder>
+  <zorder>layoutWidget</zorder>
+  <zorder>dxp_out</zorder>
+  <zorder>dxp_enter</zorder>
+  <zorder>dxp_clear</zorder>
+ </widget>
+ <resources>
+  <include location="ressources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
