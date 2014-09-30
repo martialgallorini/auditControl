@@ -378,7 +378,7 @@ PRO</string>
     </property>
     <property name="text">
      <string>SDI
-PALT</string>
+PLAT</string>
     </property>
     <property name="checkable">
      <bool>false</bool>
