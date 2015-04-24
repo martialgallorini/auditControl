@@ -1,7 +1,13 @@
+![ScreenShot](auditControl_v097.png)
+
 auditControl
 ============
 
-Graphical user interface for controling audiovisual devices over TCP : scaler Analogway Pulse PLS300 + DVI Matrix Extron DXP44-DVI + Projection Design F32+ video projector
+Graphical user interface for controling audiovisual devices over TCP : 
+- scaler Analogway Pulse PLS300
+- DVI Matrix Extron DXP44-DVI
+- Projection Design F32+ video projector
+- scaler Kramer VP771
 
 Developped in C++ using Qt framework 5.1.1 and Qt Creator 2.8.1 under Mac OsX Lion.
 
