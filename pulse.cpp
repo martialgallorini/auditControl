@@ -357,7 +357,7 @@ void Pulse::on_autoTakeOn_clicked()
 void Pulse::on_autoTakeOFF_clicked()
 {
     //Pulse autotake off
-    if(!plsClient->sendCommand("OYT"))
+    if(!plsClient->sendCommand("0YT"))
     {
         qWarning() << "Problem sending command to Pulse";
     }
