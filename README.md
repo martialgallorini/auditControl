@@ -4,14 +4,12 @@ auditControl
 ============
 
 Graphical user interface for controling audiovisual devices over TCP : 
-- scaler Analogway Pulse PLS300
+- scaler Analogway Pulse PLS200
 - DVI Matrix Extron DXP44-DVI
 - Projection Design F32+ video projector
 - scaler Kramer VP771
 
-Developped in C++ using Qt framework 5.1.1 and Qt Creator 2.8.1 under Mac OsX Lion.
-
-Still an alpha - Under active developement...
+Developped in C++ using Qt framework 5.1.1 and Qt Creator 2.8.1 under Mac OsX Yosemite.
 
 This software is free to modify and redistribute.
 
@@ -24,7 +22,7 @@ License
 
 auditControl - Graphical user interface for controling audiovisual devices
 
-Martial GALLORINI (http://www.martialgallorini.com/)
+Martial GALLORINI (http:/martialgallorini.github.io/)
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by

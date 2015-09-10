@@ -5,7 +5,7 @@ int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
     MainWindow w;
-    w.setWindowTitle("AUDIT CONTROLER - v0.9.7");
+    w.setWindowTitle("auditControl - v0.9.8");
     a.setWindowIcon(QIcon(":/icons/img/appicon.ico"));
     w.show();
 
